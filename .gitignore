@@ -1,10 +1,38 @@
-# Dados locais e saídas
-data/
-*.csv
-*.json
-*.parquet
- 
-# Ambientes virtuais e cache
-.venv/
+
+# Cache do Python
 __pycache__/
+*.py[cod]
+
+# Testes
 .pytest_cache/
+.coverage
+htmlcov/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Empacotamento
+*.egg-info/
+build/
+dist/
+
+# Arquivos temporarios
+*.log
+.DS_Store
+
+# Saidas geradas pelo Spark
+data/output/
+
+# Arquivos temporarios do Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Configuracoes locais
+.env
+.vscode/
+# Scripts auxiliares utilizados no desenvolvimento
+teste_leitura.py
+testespark.py
