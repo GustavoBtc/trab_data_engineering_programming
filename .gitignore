@@ -1,0 +1,10 @@
+# Dados locais e saídas
+data/
+*.csv
+*.json
+*.parquet
+ 
+# Ambientes virtuais e cache
+.venv/
+__pycache__/
+.pytest_cache/
